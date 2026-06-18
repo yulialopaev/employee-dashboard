@@ -12,7 +12,7 @@ button {
 p {
     color: #34495e;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     border-bottom: #34495e solid 3px;
     text-align: center;
     padding-bottom: 8px;
@@ -21,7 +21,10 @@ p {
 table {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 td, thead {
@@ -29,9 +32,13 @@ td, thead {
     padding: 4px;
 }
 
-tr:nth-child(even){background-color: #f2f2f2;}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 
-tr:hover {background-color: #ddd;}
+tr:hover {
+    background-color: #ddd;
+}
 
 thead {
     padding-top: 12px;
@@ -41,8 +48,26 @@ thead {
     color: white;
 }
 
+#total-container {
+    margin-top: 40px;
+}
+
+#list-container {
+    margin-top: 40px;
+}
+
 #total-salary {
-    text-align: center;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #1a365d;
+
+    padding: 8px 20px;
+    margin-bottom: 40px;
+
+    font-size: 1.1rem;
+
 }
 
 input {
@@ -52,6 +77,7 @@ input {
 
 #add-container {
     text-align: center;
+    padding-top: 20px;
 }
 
 
