@@ -1,0 +1,35 @@
+button {
+    background-color: #0dcaf0;
+    margin: 3px;
+    border-radius: 4px;
+    border: 2px solid #2980b9;
+    padding: 12px 24px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+p {
+    color: #34495e;
+    font-weight: 600;
+    font-size: 16px;
+    border-bottom: #34495e solid 3px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+#total-salary {
+    text-align: center;
+}
+
+input {
+    padding: 11px;
+    font-weight: bold;
+}
+
+

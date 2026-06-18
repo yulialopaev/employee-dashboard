@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="add-container">
+    <p>Add a new employee</p>
+    <input type="number" id="add-id" placeholder="Enter ID">
+    <input type="text" id="add-name" placeholder="Enter Full Name">
+    <input type="text" id="add-title" placeholder="Enter Title">
+    <input type="number" id="add-salary" placeholder="Enter Salary">
+    <button id="add-button">Add employee</button>
+    <button id="save-button">Save</button>
+    <div id="msg-container"></div>
+</div>
+
+<div id="list-container">
+    <p>List of all employees</p>
+    <table>
+        <thead>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Title</td>
+            <td>Salary</td>
+        </tr>
+        </thead>
+
+        <tbody id="table-body">
+
+        </tbody>
+    </table>
+
+    <div id="total-container">
+        <p>Total salary:</p>
+        <div id="total-salary"></div>
+    </div>
+
+    <div id="min-container">
+        <p>Employee with min salary:</p>
+        <div id="min-salary">
+            <table>
+                <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Title</td>
+                    <td>Salary</td>
+                </tr>
+                </thead>
+
+                <tbody id="min-table-body">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script defer src="script.js"></script>
+</body>
+</html>
